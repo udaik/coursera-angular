@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { DishdetailComponent } from './dishdetail/dishdetail.component';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+    title = 'Toolbar';
 }
